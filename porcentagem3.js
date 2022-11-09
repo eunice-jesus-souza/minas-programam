@@ -6,14 +6,10 @@
 // produto: R$ 21,00 -> 21 * 30% -> R$ 27,30
 // let valorProduto= 18;
 
-let valorCompra = 18 * .45 / 26.10
-let lucroProduto = 21 * .30 / 27.30
-let valorProduto = 18 
+const valorCompra = 21
 
-if (valorCompra > lucroProduto){
-    console.log (`O valor da compra é ${18}`)
+if (valorCompra < 20){
+    console.log (valorCompra * 1.45)
 }else if(lucroProduto){
-  console.log (`O valor da venda é maior que ${20}`)
-}else {
-
+  console.log (`valorCompra * 1.3`)
 }

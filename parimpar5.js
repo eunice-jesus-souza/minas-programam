@@ -4,13 +4,24 @@
 
 // Dica do sucesso: todo número par é divisível por 2.
 
-let number1 = 0
-let number2 = 1
+let number = 4
 
-if(number1 % 2 == 0 == number2 == 1 ){
-    console.log(`O numero ${0} é par, e o numbero ${1} é impar`)
-}else if (number1 % 2 == 0 == number2 == 1){
-    console.log(`O numero ${0} é impar, e o numbero ${1} é par`)
-}else{
 
+if(number % 2 === 0){
+    console.log(`Este numero é par`)
+}else {
+    console.log(`Este numero é impar`)
 }
+
+function verificarPar (numero) {
+    if (numero % 2 === 0) return `${numero} é par`
+    else return`${numero} é impar`
+}
+
+console.log(verificarPar(2))
+console.log(verificarPar(5))
+console.log(verificarPar(34))
+console.log(verificarPar(99))
+
+
+

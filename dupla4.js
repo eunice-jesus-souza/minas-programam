@@ -9,9 +9,8 @@
 // o programa deve retornar "Você ainda não pode competir!"
 // Essa atividade deve ser feita em dupla ou trio. Não fazer individual ou com mais de 3 pessoas :)
 
-//                        ###################################
 
-//  Eunice e Miriam
+//  ################# Eunice e Miriam ############################
 
 const nome = "nadador"
 let idadeA = 5 && 7 
